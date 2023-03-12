@@ -11,12 +11,12 @@ RSGCore.Functions.CreateCallback('rsg-notes:server:SyncNotes', function(_, cb)
 end)
 
 RegisterNetEvent("rsg-notes:server:CreateNote", function(data)
-	local src = source
+    local src = source
     local Player = RSGCore.Functions.GetPlayer(src)
     local firstname = Player.PlayerData.charinfo.firstname
     local lastname = Player.PlayerData.charinfo.lastname
-	local fullname = firstname..' '..lastname
-	local rnd = math.random
+    local fullname = firstname..' '..lastname
+    local rnd = math.random
     local charset =
     {
         "q","w","e","r","t","y","u","i","o","p","a","s","d","f","g","h","j","k","l","z","x","c","v","b","n","m",
