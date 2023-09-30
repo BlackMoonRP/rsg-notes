@@ -3,7 +3,8 @@ rdr3_warning 'I acknowledge that this is a prerelease build of RedM, and I am aw
 game 'rdr3'
 
 author 'Phil Mcraken#9759'
-name "rsg-notes"
+name 'rsg-notes'
+version '1.0.0'
 
 client_scripts {
     'client/client.lua'
